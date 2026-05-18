@@ -46,7 +46,7 @@ Experimental Design • Statistical Modeling • Benchmarking & Evaluation • C
 ## Research Impact
 - 80+ peer-reviewed publications, h-index 36, 6,900+ citations
 - 13 U.S. patents
-- IEEE ICDH Best Paper Award (2024)
+- IEEE ICDH Best Paper Award (2023)
 - IBM Outstanding Research Accomplishment Award (2021)
 
 ---
