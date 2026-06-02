@@ -31,6 +31,12 @@ applying that expertise to new challenges.
 | [beats-and-focus](https://github.com/KelyNorel/beats-and-focus) | Does high-BPM music drive focus? A/B test on 2,016 Spotify tracks — sequential design, pilot study, frequentist + Bayesian analysis. The data agreed with the hypothesis — until SHAP revealed instrumentalness, not tempo, drives the effect. | scipy, scikit-learn, SHAP |
 | [clinical-trial-nudges](https://github.com/KelyNorel/clinical-trial-nudges) | Do behavioral nudges increase trial enrollment? A/B test on 18,644 ClinicalTrials.gov trials — nudges show 2x enrollment advantage, until SHAP reveals it's largely mediated by trial design confounders. | scipy, statsmodels, scikit-learn, SHAP |
 
+### Healthcare Data & SQL
+
+| Project | Description | Stack |
+|---|---|---|
+| [provider-quality-sql](https://github.com/KelyNorel/provider-quality-sql) | SQL-first analysis of 5,400+ U.S. hospitals using real CMS data — weighted composite mortality scoring across 5 conditions (heart attack, stroke, pneumonia, heart failure, COPD), state and ownership type rankings, volume-quality relationship, and a provider recommendation engine returning top-5 hospitals by state and condition. VA hospitals outperform all ownership types nationally; Mississippi worst-performing state; NYU Langone #1 overall. Designed to mirror provider evaluation work at companies like Garner Health. | DuckDB, Python, pandas, matplotlib |
+
 ### Healthcare AI
 
 | Project | Description | Stack |
@@ -45,7 +51,7 @@ applying that expertise to new challenges.
 Large Language Models • Agentic AI • LLM-as-a-Judge • Reinforcement Learning • Reward Modeling • GRPO
 NLP • Transformer Models • Deep Learning • Machine Learning • Explainable AI • Synthetic Data Generation
 Real-World Evidence • Clinical AI • Digital Biomarkers • Survival Analysis
-Python • PyTorch • HuggingFace • scikit-learn • Pandas • SQL
+Python • PyTorch • HuggingFace • scikit-learn • Pandas • SQL • DuckDB
 Experimental Design • Statistical Modeling • Benchmarking & Evaluation • Cross-Functional Collaboration
 ```
 ---
