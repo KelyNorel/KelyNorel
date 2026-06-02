@@ -35,7 +35,7 @@ applying that expertise to new challenges.
 
 | Project | Description | Stack |
 |---|---|---|
-| [provider-quality-sql](https://github.com/KelyNorel/provider-quality-sql) | SQL-first analysis of 5,400+ U.S. hospitals using real CMS data — weighted composite mortality scoring across 5 conditions (heart attack, stroke, pneumonia, heart failure, COPD), state and ownership type rankings, volume-quality relationship, and a provider recommendation engine returning top-5 hospitals by state and condition. VA hospitals outperform all ownership types nationally; Mississippi worst-performing state; NYU Langone #1 overall. Designed to mirror provider evaluation work at companies like Garner Health. | DuckDB, Python, pandas, matplotlib |
+| [provider-quality-sql](https://github.com/KelyNorel/provider-quality-sql) | SQL-first analysis of 5,400+ U.S. hospitals using real CMS data — weighted composite mortality scoring across 5 conditions (heart attack, stroke, pneumonia, heart failure, COPD), state and ownership type rankings, volume-quality relationship, and a provider recommendation engine returning top-5 hospitals by state and condition. VA hospitals outperform all ownership types nationally; Mississippi worst-performing state; NYU Langone #1 overall.  | DuckDB, Python, pandas, matplotlib |
 
 ### Healthcare AI
 
