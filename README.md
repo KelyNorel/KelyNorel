@@ -24,6 +24,13 @@ applying that expertise to new challenges.
 | [tcga-luad-rwe](https://github.com/KelyNorel/tcga-luad-rwe) | Multi-modal survival analysis of lung adenocarcinoma — KM, Cox PH, KRAS subtypes, RNA-seq integration | lifelines, scikit-learn, pandas |
 | [metabric-survival](https://github.com/KelyNorel/metabric-survival) | Breast cancer survival analysis — NPI validation, competing risks, causal inference | lifelines, scikit-survival |
 
+### Behavioral Data Science / A/B Testing
+
+| Project | Description | Stack |
+|---|---|---|
+| [beats-and-focus](https://github.com/KelyNorel/beats-and-focus) | Does high-BPM music drive focus? A/B test on 2,016 Spotify tracks — sequential design, pilot study, frequentist + Bayesian analysis. The data agreed with the hypothesis — until SHAP revealed instrumentalness, not tempo, drives the effect. | scipy, scikit-learn, SHAP |
+| [clinical-trial-nudges](https://github.com/KelyNorel/clinical-trial-nudges) | Do behavioral nudges increase trial enrollment? A/B test on 18,644 ClinicalTrials.gov trials — nudges show 2x enrollment advantage, until SHAP reveals it's largely mediated by trial design confounders. | scipy, statsmodels, scikit-learn, SHAP |
+
 ### Healthcare AI
 
 | Project | Description | Stack |
