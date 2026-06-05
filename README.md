@@ -17,6 +17,12 @@ applying that expertise to new challenges.
 | [pain-llm-finetune](https://github.com/KelyNorel/pain-llm-finetune) | Local HIPAA-compliant LLM fine-tuning for chronic pain clinical scoring — RAG, LoRA, Ollama on Apple Silicon | MLX, Ollama, ChromaDB |
 | [oncology-rwe-agent](https://github.com/KelyNorel/oncology-rwe-agent) | Agentic RWE pipeline for oncology — LangGraph, tool use, clinical reasoning | LangGraph, Claude API |
 
+### Causal Data Science
+
+| Project | Description | Stack |
+|---|---|---|
+| [data-confessions](https://github.com/KelyNorel/data-confessions) | Multi-agent causal analysis system — 5 LangGraph agents investigate whether rain reduces crime in Chicago using 1.4M records. Finds temperature is the real driver; rain effect only visible after controlling for confounders. Inspired by *The Book of Why* and *Everybody Lies* | LangGraph, Claude API, statsmodels, Streamlit |
+
 ### Oncology / Real-World Evidence
 
 | Project | Description | Stack |
@@ -53,6 +59,7 @@ NLP • Transformer Models • Deep Learning • Machine Learning • Explainabl
 Real-World Evidence • Clinical AI • Digital Biomarkers • Survival Analysis
 Python • PyTorch • HuggingFace • scikit-learn • Pandas • SQL • DuckDB
 Experimental Design • Statistical Modeling • Benchmarking & Evaluation • Cross-Functional Collaboration
+Causal Inference • Confounder Analysis • Multi-Agent Systems • LangGraph
 ```
 ---
 
