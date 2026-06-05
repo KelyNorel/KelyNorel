@@ -64,7 +64,7 @@ Causal Inference • Confounder Analysis • Multi-Agent Systems • LangGraph
 ---
 
 ## Research Impact
-- 80+ peer-reviewed publications, h-index 36, 6,900+ citations
+- 80+ peer-reviewed publications, h-index 36, 7,000+ citations
 - 13 U.S. patents
 - IEEE ICDH Best Paper Award (2023)
 - IBM Outstanding Research Accomplishment Award (2021)
