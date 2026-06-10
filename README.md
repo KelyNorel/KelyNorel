@@ -23,6 +23,12 @@ applying that expertise to new challenges.
 |---|---|---|
 | [data-confessions](https://github.com/KelyNorel/data-confessions) | Multi-agent causal analysis system — 5 LangGraph agents investigate whether rain reduces crime in Chicago using 1.4M records. Finds temperature is the real driver; rain effect only visible after controlling for confounders. Inspired by *The Book of Why* and *Everybody Lies* | LangGraph, Claude API, statsmodels, Streamlit |
 
+### Women's Health / Time-Series
+
+| Project | Description | Stack |
+|---|---|---|
+| [cycle-signal](https://github.com/KelyNorel/cycle-signal) | End-to-end time-series analysis of menstrual cycle dynamics — ovulation timing prediction across 1,665 cycles from 159 subjects (MAE=1.79 days); data leakage detection; linear model outperforms Random Forest and XGBoost | pandas, scikit-learn, matplotlib |
+
 ### Oncology / Real-World Evidence
 
 | Project | Description | Stack |
