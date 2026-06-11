@@ -16,6 +16,7 @@ applying that expertise to new challenges.
 | [legal-rlhf](https://github.com/KelyNorel/legal-rlhf) | End-to-end RLHF pipeline for legal document relevance — reward model (98.7% accuracy) + GRPO policy (64.5% selection acc) + LLM-as-a-Judge validation | PyTorch, HuggingFace, TRL, Claude API |
 | [pain-llm-finetune](https://github.com/KelyNorel/pain-llm-finetune) | Local HIPAA-compliant LLM fine-tuning for chronic pain clinical scoring — RAG, LoRA, Ollama on Apple Silicon | MLX, Ollama, ChromaDB |
 | [oncology-rwe-agent](https://github.com/KelyNorel/oncology-rwe-agent) | Agentic RWE pipeline for oncology — LangGraph, tool use, clinical reasoning | LangGraph, Claude API |
+| [esm-variant-agent](https://github.com/KelyNorel/esm-variant-agent) | Zero-shot protein variant effect prediction — ESM2 embeddings + log-likelihood ratio scoring (Spearman ρ=0.364 on ProteinGym), LangGraph agent with UniProt annotation and real-time clinical evidence search (ClinVar, PubMed) | PyTorch, HuggingFace, LangGraph, Claude API, Streamlit |
 
 ### Causal Data Science
 
@@ -66,6 +67,7 @@ Real-World Evidence • Clinical AI • Digital Biomarkers • Survival Analysis
 Python • PyTorch • HuggingFace • scikit-learn • Pandas • SQL • DuckDB
 Experimental Design • Statistical Modeling • Benchmarking & Evaluation • Cross-Functional Collaboration
 Causal Inference • Confounder Analysis • Multi-Agent Systems • LangGraph
+Protein Language Models • Variant Effect Prediction • Computational Biology
 ```
 ---
 
