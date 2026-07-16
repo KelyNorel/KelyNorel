@@ -34,8 +34,15 @@ applying that expertise to new challenges.
 
 | Project | Description | Stack |
 |---|---|---|
+| [cfdna-methylation-atlas](https://github.com/KelyNorel/cfdna-methylation-atlas) | Reproduced a published cfDNA methylation deconvolution method (Moss et al. 2018) from public GEO/TCGA data — traced a systematic tissue-of-origin misclassification to a single undersampled reference cell type (n=2), confirmed across 4 independent methods: real cancer patients, CpG hyperparameter sweep, synthetic TCGA admixture cohort, and bootstrap confidence intervals | Python, pandas, scipy (NNLS), GEOparse, GDC API |
 | [tcga-luad-rwe](https://github.com/KelyNorel/tcga-luad-rwe) | Multi-modal survival analysis of lung adenocarcinoma — KM, Cox PH, KRAS subtypes, RNA-seq integration | lifelines, scikit-learn, pandas |
 | [metabric-survival](https://github.com/KelyNorel/metabric-survival) | Breast cancer survival analysis — NPI validation, competing risks, causal inference | lifelines, scikit-survival |
+
+### Speech Processing / Audio ML
+
+| Project | Description | Stack |
+|---|---|---|
+| [fluency-from-alignment](https://github.com/KelyNorel/fluency-from-alignment) | Predicted spoken fluency from pause structure — forced alignment + energy-based VAD on 2,500 utterances. Found forced alignment fails systematically on disfluent speech (the population that matters most); switched to VAD-based pause detection. Speech rate alone captures 98% of the full 9-feature model's signal (test ρ=0.621 vs 0.630) | Qwen3-ForcedAligner, HuggingFace Transformers, PyTorch, scikit-learn, SHAP |
 
 ### Behavioral Data Science / A/B Testing
 
@@ -64,10 +71,12 @@ applying that expertise to new challenges.
 Large Language Models • Agentic AI • LLM-as-a-Judge • Reinforcement Learning • Reward Modeling • GRPO
 NLP • Transformer Models • Deep Learning • Machine Learning • Explainable AI • Synthetic Data Generation
 Real-World Evidence • Clinical AI • Digital Biomarkers • Survival Analysis
+cfDNA / Liquid Biopsy • DNA Methylation • Reference-Atlas Deconvolution (NNLS) • Bootstrap / Uncertainty Quantification
 Python • PyTorch • HuggingFace • scikit-learn • Pandas • SQL • DuckDB
 Experimental Design • Statistical Modeling • Benchmarking & Evaluation • Cross-Functional Collaboration
 Causal Inference • Confounder Analysis • Multi-Agent Systems • LangGraph
 Protein Language Models • Variant Effect Prediction • Computational Biology
+
 ```
 ---
 
