@@ -17,7 +17,7 @@ applying that expertise to new challenges.
 | [pain-llm-finetune](https://github.com/KelyNorel/pain-llm-finetune) | Local HIPAA-compliant LLM fine-tuning for chronic pain clinical scoring — RAG, LoRA, Ollama on Apple Silicon | MLX, Ollama, ChromaDB |
 | [oncology-rwe-agent](https://github.com/KelyNorel/oncology-rwe-agent) | Agentic RWE pipeline for oncology — LangGraph, tool use, clinical reasoning | LangGraph, Claude API |
 | [esm-variant-agent](https://github.com/KelyNorel/esm-variant-agent) | Zero-shot protein variant effect prediction — ESM2 embeddings + log-likelihood ratio scoring (Spearman ρ=0.364 on ProteinGym), LangGraph agent with UniProt annotation and real-time clinical evidence search (ClinVar, PubMed) | PyTorch, HuggingFace, LangGraph, Claude API, Streamlit |
-| [tp53-captum-esm2](https://github.com/KelyNorel/tp53-captum-esm2) | Linear probe on frozen ESM2 embeddings predicts TP53 variant pathogenicity (ClinVar, 385 variants, AUC 0.806); Captum Integrated Gradients explains each prediction — but raw attribution turned out to be a red herring, locking onto a single never-mutated residue in 99.7% of variants. Diagnosed and corrected the artifact, then showed the fixed attribution localizes tightly to the true mutated residue, with no independent evidence the model understands the DNA-binding domain as a structural unit | PyTorch, HuggingFace, Captum, scikit-learn, Streamlit |
+| [tp53-captum-esm2](https://github.com/KelyNorel/tp53-captum-esm2) | Linear probe on frozen ESM2 embeddings predicts TP53 variant pathogenicity (ClinVar, AUC 0.806) — Captum's attribution locked onto a never-mutated residue in 99.7% of variants until the artifact was diagnosed and independently confirmed with SHAP | PyTorch, HuggingFace, Captum, SHAP, scikit-learn, Streamlit |
 
 ### Causal Data Science
 
@@ -70,7 +70,7 @@ applying that expertise to new challenges.
 ## Expertise
 ```
 Large Language Models • Agentic AI • LLM-as-a-Judge • Reinforcement Learning • Reward Modeling • GRPO
-NLP • Transformer Models • Deep Learning • Machine Learning • Explainable AI • Synthetic Data Generation
+NLP • Transformer Models • Deep Learning • Machine Learning • Explainable AI (SHAP, Captum) • Synthetic Data Generation
 Real-World Evidence • Clinical AI • Digital Biomarkers • Survival Analysis
 cfDNA / Liquid Biopsy • DNA Methylation • Reference-Atlas Deconvolution (NNLS) • Bootstrap / Uncertainty Quantification
 Python • PyTorch • HuggingFace • scikit-learn • Pandas • SQL • DuckDB
@@ -82,7 +82,7 @@ Protein Language Models • Variant Effect Prediction • Computational Biology
 ---
 
 ## Research Impact
-- 80+ peer-reviewed publications, h-index 36, 7,000+ citations
+- 80+ peer-reviewed publications, h-index 36, 7,100+ citations
 - 13 U.S. patents
 - IEEE ICDH Best Paper Award (2023)
 - IBM Outstanding Research Accomplishment Award (2021)
