@@ -83,7 +83,7 @@ Protein Language Models • Variant Effect Prediction • Computational Biology
 
 ## Research Impact
 - 80+ peer-reviewed publications, h-index 37, 7,100+ citations
-- 13 U.S. patents
+- 14 U.S. patents
 - IEEE ICDH Best Paper Award (2023)
 - IBM Outstanding Research Accomplishment Award (2021)
 
