@@ -14,10 +14,10 @@ applying that expertise to new challenges.
 | Project | Description | Stack |
 |---|---|---|
 | [legal-rlhf](https://github.com/KelyNorel/legal-rlhf) | End-to-end RLHF pipeline for legal document relevance — reward model (98.7% accuracy) + GRPO policy (64.5% selection acc) + LLM-as-a-Judge validation | PyTorch, HuggingFace, TRL, Claude API |
-| [pain-llm-finetune](https://github.com/KelyNorel/pain-llm-finetune) | Local HIPAA-compliant LLM fine-tuning for chronic pain clinical scoring — RAG, LoRA, Ollama on Apple Silicon | MLX, Ollama, ChromaDB |
 | [oncology-rwe-agent](https://github.com/KelyNorel/oncology-rwe-agent) | Agentic RWE pipeline for oncology — LangGraph, tool use, clinical reasoning | LangGraph, Claude API |
 | [esm-variant-agent](https://github.com/KelyNorel/esm-variant-agent) | Zero-shot protein variant effect prediction — ESM2 embeddings + log-likelihood ratio scoring (Spearman ρ=0.364 on ProteinGym), LangGraph agent with UniProt annotation and real-time clinical evidence search (ClinVar, PubMed) | PyTorch, HuggingFace, LangGraph, Claude API, Streamlit |
 | [tp53-captum-esm2](https://github.com/KelyNorel/tp53-captum-esm2) | Linear probe on frozen ESM2 embeddings predicts TP53 variant pathogenicity (ClinVar, AUC 0.806) — Captum's attribution locked onto a never-mutated residue in 99.7% of variants until the artifact was diagnosed and independently confirmed with SHAP | PyTorch, HuggingFace, Captum, SHAP, scikit-learn, Streamlit |
+| [gnn-molecular-solubility](https://github.com/KelyNorel/gnn-molecular-solubility) | Graph Convolutional Network for molecular solubility prediction (ESOL/Delaney, 1,128 molecules) — RDKit featurization, from-scratch numpy GCN (backprop derived and gradient-checked by hand) plus a PyTorch Geometric production version, benchmarked honestly against classical ML (Random Forest test R²=0.851 vs. GNN R²=0.785) | PyTorch, PyTorch Geometric, RDKit, scikit-learn, NumPy |
 
 ### Causal Data Science
 
@@ -56,7 +56,7 @@ applying that expertise to new challenges.
 
 | Project | Description | Stack |
 |---|---|---|
-| [provider-quality-sql](https://github.com/KelyNorel/provider-quality-sql) | SQL-first analysis of 5,400+ U.S. hospitals using real CMS data — weighted composite mortality scoring across 5 conditions (heart attack, stroke, pneumonia, heart failure, COPD), state and ownership type rankings, volume-quality relationship, and a provider recommendation engine returning top-5 hospitals by state and condition. VA hospitals outperform all ownership types nationally; Mississippi worst-performing state; NYU Langone #1 overall. Includes a published interactive Hex dashboard with live state/condition filtering. | DuckDB, Python, pandas, matplotlib, Hex|
+| [provider-quality-sql](https://github.com/KelyNorel/provider-quality-sql) | SQL-first analysis of 5,400+ U.S. hospitals using real CMS data — weighted composite mortality scoring across 5 conditions (heart attack, stroke, pneumonia, heart failure, COPD), state and ownership type rankings, volume-quality relationship, and a provider recommendation engine returning top-5 hospitals by state and condition. VA hospitals outperform all ownership types nationally; Mississippi worst-performing state; NYU Langone #1 overall. Includes a published interactive Hex dashboard with live state/condition filtering.  | DuckDB, Python, pandas, matplotlib, Hex |
 
 ### Healthcare AI
 
@@ -73,16 +73,17 @@ Large Language Models • Agentic AI • LLM-as-a-Judge • Reinforcement Learni
 NLP • Transformer Models • Deep Learning • Machine Learning • Explainable AI (SHAP, Captum) • Synthetic Data Generation
 Real-World Evidence • Clinical AI • Digital Biomarkers • Survival Analysis
 cfDNA / Liquid Biopsy • DNA Methylation • Reference-Atlas Deconvolution (NNLS) • Bootstrap / Uncertainty Quantification
-Python • PyTorch • HuggingFace • scikit-learn • Pandas • SQL • DuckDB
+Python • PyTorch • HuggingFace • scikit-learn • Pandas • SQL • DuckDB • Interactive Dashboards (Hex)
 Experimental Design • Statistical Modeling • Benchmarking & Evaluation • Cross-Functional Collaboration
 Causal Inference • Confounder Analysis • Multi-Agent Systems • LangGraph
 Protein Language Models • Variant Effect Prediction • Computational Biology
+Graph Neural Networks • Cheminformatics (RDKit)
 
 ```
 ---
 
 ## Research Impact
-- 80+ peer-reviewed publications, h-index 37, 7,100+ citations
+- 80+ peer-reviewed publications, h-index 37, 7,200+ citations
 - 14 U.S. patents
 - IEEE ICDH Best Paper Award (2023)
 - IBM Outstanding Research Accomplishment Award (2021)
