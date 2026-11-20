@@ -69,6 +69,7 @@ applying that expertise to new challenges.
 | Project | Description | Stack |
 |---|---|---|
 | [llm-narrative-pain](https://github.com/KelyNorel/llm-narrative-pain) | Analysis code for *LLM-derived narrative metrics in chronic pain* (npj Digital Medicine, 2026). Whisper transcription + Llama-3-405B scoring of patient interviews on 9 clinical constructs (131 subjects: chronic low back pain, depression, healthy controls), validated against clinical questionnaires. All metrics remain FDR-significant after age and sex adjustment; test-retest reliability across 100 LLM runs; robustness to transcription error (WER) | Llama-3 (watsonx), Whisper, litellm, scikit-learn, pingouin, jiwer |
+| [clinical-summary-metrics](https://github.com/KelyNorel/clinical-summary-metrics) | When do summary metrics mislead? BLEU, ROUGE, BERTScore and LLM-as-a-Judge stress-tested on clinical notes (MTS-Dialog) with controlled edits and 400 human-scored model summaries. Given a harmful edit (flipped negation, wrong dose, swapped side, invented finding) and a harmless rewrite of the same note, ROUGE-L preferred the wrong note 82% of the time, BERTScore 67%, an LLM judge 3%; on real summaries no metric reliably flagged hallucinations (AUROC 0.66 at best) | sacrebleu, rouge-score, BERTScore, Claude API, pandas, pytest |
 | [ncci-policy-assistant](https://github.com/KelyNorel/ncci-policy-assistant) | RAG-powered Medicare NCCI policy assistant: 85% accuracy, zero hallucinations, CPT conflict detection | ChromaDB, Claude API, Streamlit |
 | [fhir-retrieval-system](https://github.com/KelyNorel/fhir-retrieval-system) | FHIR clinical data retrieval system matching paper SOTA: BM25, vector, hybrid retrieval strategies | SQLite, FHIR, sentence-transformers |
 
@@ -77,6 +78,7 @@ applying that expertise to new challenges.
 ## Expertise
 ```
 Large Language Models • Agentic AI • LLM-as-a-Judge • Reinforcement Learning • Reward Modeling • GRPO
+Summarization Evaluation (BLEU, ROUGE, BERTScore) • Clinical NLP • Semantic Search • RAG
 NLP • Transformer Models • Deep Learning • Machine Learning • Explainable AI (SHAP, Captum) • Synthetic Data Generation
 Real-World Evidence • Clinical AI • Digital Biomarkers • Survival Analysis
 cfDNA / Liquid Biopsy • DNA Methylation • Reference-Atlas Deconvolution (NNLS) • Bootstrap / Uncertainty Quantification
